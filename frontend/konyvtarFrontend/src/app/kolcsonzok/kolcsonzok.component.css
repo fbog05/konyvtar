@@ -1,0 +1,22 @@
+body{
+    min-width: 400px;
+    background-image: url('../../assets/Bg.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+h1{
+    background-color: rgba(161, 211, 54, 0.6);
+    color: white;
+    font-size: 15rem;
+    margin: auto;
+    margin-top: 2vh;
+    text-align: center;
+}
+
+@media only screen and (max-width: 768px) {
+    h1{
+        font-size: 10rem;
+        margin-top: 2vh;
+    }
+}
